@@ -1,0 +1,76 @@
+body{
+background:url(images/splash.jpeg);
+padding:0;
+margin:o;
+font-family:sans-serif;
+background-position:center;
+
+}
+
+.container{
+background:#fefe;
+font-family:sans-serif;
+width:400px;
+height:500px;
+padding:70px 30px;
+color:rgb(40,58,34);
+position:absolute;
+top:50%;
+left:50%;
+right:50%;
+box-sizing:border-box;
+transform:translate(-50%,-50%);
+font-weight:bold;
+}
+
+h1{
+margin:0;
+padding:0 0 20px;
+text-align:center;
+font-size:22px;
+font-weight:bold;
+}
+h1:hover{
+font-size:29px;
+color:green;
+}
+.container input{
+width:100px;
+margin-bottom:20px;
+}
+.container input[type="text"],input[type="password"]{
+border:none;
+border-bottom:2px double red;
+background:transparent;
+outline:none;
+height:50px;
+width:100%;
+color:rgb(255,55,100);
+font-size:20px;
+}
+.container input[type="submit"]{
+border:none;
+outline:none;
+height:50px;
+background:#fb3525;
+color:purple;
+font-size:20px;
+border-radius:20%;
+font-weight:bold;
+}
+container input[type="submit"]:hover{
+cursor:pointer;
+background:rgb(100,68,50);
+color:voilet;
+font-size:25px;
+}
+.container a{
+text-decoration:none;
+font-size:18px;
+line-height:20px;
+color:chocolate;
+}
+.container a:hover{
+color:#ffc107;
+font-size:20px;
+}
