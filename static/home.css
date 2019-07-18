@@ -1,0 +1,12 @@
+body{
+background:#fefe;
+font-weight:bold;
+color:chocolate;
+}
+section{
+background:url(images/web2.jpeg);
+font-family:Lucida Console;
+background-position:center;
+background-size:cover;
+
+}
